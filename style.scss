@@ -474,10 +474,18 @@ nav {
     &:hover {
       & span {
         display: block;
+
+        @media screen and (max-width: 768px) {
+          display: none;
+        }
       }
 
       &::before {
         display: block;
+
+        @media screen and (max-width: 768px) {
+          display: none;
+        }
       }
     }
   }

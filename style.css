@@ -493,8 +493,20 @@ nav a:hover {
   display: block;
 }
 
+@media screen and (max-width: 768px) {
+  .work a:focus span, .work a:hover span {
+    display: none;
+  }
+}
+
 .work a:focus::before, .work a:hover::before {
   display: block;
+}
+
+@media screen and (max-width: 768px) {
+  .work a:focus::before, .work a:hover::before {
+    display: none;
+  }
 }
 
 .work span {
