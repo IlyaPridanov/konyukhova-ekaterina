@@ -14,6 +14,8 @@ close.addEventListener('click' , () => {
   nav.classList.remove('active');
 })
 
-buttonTop.addEventListener('click' , () => {
-  window.scrollTo(0,0);
-})
+if (buttonTop) {
+  buttonTop.addEventListener('click' , () => {
+    window.scrollTo(0,0);
+  })
+}
