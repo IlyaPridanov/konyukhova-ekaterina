@@ -8,8 +8,8 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <header>
-    <div class="container">
+  <header class="header">
+    <div class="header__row">
       <h1>
         <a href="work.html">Konyukhova Ekaterina</a>
       </h1>
@@ -19,28 +19,66 @@
             <a href="index.html" class="active">About me</a>
           </li>
           <li>
-            <a href="#">Work</a>
+            <a href="work.html">Work</a>
           </li>
           <li>
-            <a href="#">Instagramm</a>
+            <a href="https://instagram.com/katy_shyot?r=nametag" target="_blank">Instagramm</a>
           </li>
           <li>
-            <a href="#">YouTube</a>
+            <a href="https://www.youtube.com/channel/UCgZG9ScU_qEbXyCfiRekSFw" target="_blank">YouTube</a>
           </li>
           <li>
-            <a href="#">Contact</a>
+            <a href="contact.html">Contact</a>
           </li>
         </ul>
+        <button class="header__close" type="button">
+          <span></span>
+          <span></span>
+        </button>
       </nav>
+      <button class="header__open" type="button">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
     </div>
   </header>
-  <body>
+  <main>
     <div class="container">
-      <section class="about">
-        <img src="img/about-2.jpg" alt="about">
-        <img src="img/about-1.jpg" alt="about">
-      </section>
+      <div class="about">
+        <div class="about__row about__row--top">
+          <div class="about__img">
+            <img src="img/about-2.jpg" alt="about">
+          </div>
+          <div class="about__text">
+            <p>Я Конюхова Екатерина, модельер - конструктор женской одежды по образованию (БНТУ МГТК, Беларусь).</p>
+            <p>С 2019 года создаю смелую и оригинальную одежду для необычных людей.</p>
+            <p>Прекрасно рисую от руки, особенно в графике. И конечно, владею Adobe Illustrator, Adobe Fotoshop, Corel Draw (фэшн иллюстрация/творческий эскиз/технический рисунок).</p>
+            <p>Мой стиль работы - это нестандартные, «цепляющие» вещи. Дерзкие и немного эпатажные.</p>
+            <p>При этом я умею почувствовать и понять практически любую целевую аудиторию и предложить ей что-то особенное - сказывается опыт работы мастером по пошиву в ателье, где создание свадебного платья могло соседствовать с разработкой футуристичного пуховика - трансформера :-)</p>
+            <p>Я не просто создаю красивую картинку. Я точно знаю, как воплотить её в жизнь и имею в этом практический опыт. От выбора материала и разработки конструкции - до последнего стежка. Делая наброски творческого эскиза, я уже понимаю, как изделие будет выполнено технологически.</p>
+          </div>
+        </div>
+        <div class="about__row about__row--bottom">
+          <div class="about__img">
+            <img src="img/about-1.jpg" alt="about">
+          </div>
+          <div class="about__text">
+            <p>В совершенстве владею русским языком. С  английским дела обстоят чуть сложнее, но я работаю над этим :-)</p>
+            <p>Веду творческий блог в Instagram и на Youtube.</p>
+            <p>Не слишком большой профессиональный опыт, я компенсирую умением «схватывать на лету», быстро обучаться чему-то новому и искренней любовью к своему делу.</p>
+            <p>Я перфекционист в хорошем смысле этого слова - работаю на совесть и отличный результат.</p>
+            <p>Связаться со мной можно любым из способов, указанных в разделе с контактами.</p>
+            <p>Спасибо за внимание</p>
+          </div>
+        </div>
+      </div>
     </div>
-  </body>
+  </main>
+  <button class="top-btn" type="button">
+    <span>↑</span>
+    Back to Top
+  </button>
+  <script src="script.js"></script>
 </body>
 </html>
