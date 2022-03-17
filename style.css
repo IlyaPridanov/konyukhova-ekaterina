@@ -581,4 +581,8 @@ nav a:hover {
   margin-right: 3px;
   margin-bottom: 3px;
 }
+
+.project--print img {
+  margin-bottom: 60px;
+}
 /*# sourceMappingURL=style.css.map */
